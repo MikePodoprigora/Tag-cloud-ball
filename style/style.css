@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+}
+
+header {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    padding: 0 6px;
+}
+
+
+.search-holder{
+    position: relative;
+    height: 42px;
+    margin: 7px 6px;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.row .search-container {
+    float: right;
+    margin: auto;
+}
